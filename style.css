@@ -8,6 +8,7 @@
   --teal-0:   hsla(166, 100%, 37%, 0.1); /* Green teal */
   --cobalt:   hsl(234, 85%, 45%); /* Cobalt blue */
   --cobalt-0: hsla(234, 85%, 45%, 0.1); /* Cobalt blue */
+  --cobalt-light: hsl(234, 85%, 60%); /* Button Hover State */
 /* Gradients*/
   --slate-blue : hsl(252, 100%, 67%); /* Light slate blue (background) */
   --royal-blue : hsl(241, 81%, 54%); /* Light royal blue (background) */
@@ -16,6 +17,7 @@
   --persian-blue : hsla(241, 72%, 46%, 0);/* Persian blue (circle) */
 /* Neutrals */
   --white:     hsl(0, 0%, 100%); /* White */
+  --white-light:     hsl(0, 0%, 75%);
   --pale-blue: hsl(221, 100%, 96%); /* Pale blue */
   --lavender:  hsl(241, 100%, 89%); /* Light lavender */
   --gray-blue: hsl(224, 30%, 27%); /*  Dark gray blue */
@@ -42,8 +44,10 @@
 
   /* Center Cards */
   main {
+    background-color: #e6e6e6;
     font-family: hankenGrotesk, sans-serif;
     font-size: 1.125rem;
+    font-weight: var(--fw-medium);
 
     min-height: 100vh;
     display: flex;
@@ -61,19 +65,25 @@
   }
   
   .one {
+
     background-image: linear-gradient(
       hsl(252, 100%, 67%),
       hsl(241, 81%, 54%)
     );
+    color: var(--white);
     border-radius: 0.75rem;
     z-index: 10;
   }
+  .card__one-title, .card__one-description, .card > .xbold {
+    margin-bottom: 25px;
+  }
 
+  
   .card__one--circle {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+   
     background-image: linear-gradient(
       hsla(256, 72%, 46%, 1),
       hsla(241, 72%, 46%, 0)
@@ -81,11 +91,21 @@
     width: 228px;
     height: 228px;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto 25px;
+    padding-top: 20px;
   }
-
+  .card__one-score {
+    font-size: 4rem;
+    font-weight: var(--fw-xbold);
+   
+  }
+  .card__one-total {
+    height: 100px;
+    font-size: 0.8rem;
+    color: var(--white-light);
+  }
   .two {
-    background-color: #e6e6e6;
+    background-color: var(--white);
     border-radius: 0 0.75rem 0.75rem 0;
     transform: translateX(-10px);
   }
@@ -97,13 +117,16 @@
 
   .card__two-item {
     width: 80%;
-    margin: 10px auto;
+    margin: 20px auto;
     border-radius: 0.75rem;
   }
   .card__two-button {
     width: 80%;
-    background-color: var(--persian-blue);
+    background-color: var(--cobalt);
     border-radius: 0.75rem;
+  }
+  .card__two-button:hover {
+    background-color: var(--cobalt-light) ;
   }
 
   /* Utility styles*/
@@ -111,6 +134,7 @@
     font-weight: var(--fw-bold);
   }
   .xbold {
+    font-size: 1.7rem;
     font-weight: var(--fw-xbold);
   }
   .red {
