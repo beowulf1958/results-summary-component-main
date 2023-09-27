@@ -1,0 +1,131 @@
+:root {
+    /* Primary */
+  --red:      hsl(0, 100%, 67%); /* Light red */
+  --red-0:    hsla(0, 100%, 67%, 0.1); /* Half light red */
+  --orange:   hsl(39, 100%, 56%); /* Orangey yellow */
+  --orange-0: hsla(39, 100%, 56%, 0.1); /* Half orangey yellow */
+  --teal:     hsl(166, 100%, 37%); /* Green teal */
+  --teal-0:   hsla(166, 100%, 37%, 0.1); /* Green teal */
+  --cobalt:   hsl(234, 85%, 45%); /* Cobalt blue */
+  --cobalt-0: hsla(234, 85%, 45%, 0.1); /* Cobalt blue */
+/* Gradients*/
+  --slate-blue : hsl(252, 100%, 67%); /* Light slate blue (background) */
+  --royal-blue : hsl(241, 81%, 54%); /* Light royal blue (background) */
+
+  --violet-blue  : hsla(256, 72%, 46%, 1); /* Violet blue (circle) */
+  --persian-blue : hsla(241, 72%, 46%, 0);/* Persian blue (circle) */
+/* Neutrals */
+  --white:     hsl(0, 0%, 100%); /* White */
+  --pale-blue: hsl(221, 100%, 96%); /* Pale blue */
+  --lavender:  hsl(241, 100%, 89%); /* Light lavender */
+  --gray-blue: hsl(224, 30%, 27%); /*  Dark gray blue */
+
+/* Fonts */
+  --fw-medium: 500;
+  --fw-bold: 700;
+  --fw-xbold: 800;
+
+}
+
+@font-face {
+  font-family: hankenGrotesk;
+  src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+/* Reset */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  /* Center Cards */
+  main {
+    font-family: hankenGrotesk, sans-serif;
+    font-size: 1.125rem;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Card styles */
+  .card {
+    border: 2px solid red;
+    width: 380px;
+    height: 520px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .one {
+    background-image: linear-gradient(
+      hsl(252, 100%, 67%),
+      hsl(241, 81%, 54%)
+    );
+    border-radius: 0.75rem;
+    z-index: 10;
+  }
+
+  .card__one--circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+      hsla(256, 72%, 46%, 1),
+      hsla(241, 72%, 46%, 0)
+    );
+    width: 228px;
+    height: 228px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+
+  .two {
+    background-color: #e6e6e6;
+    border-radius: 0 0.75rem 0.75rem 0;
+    transform: translateX(-10px);
+  }
+
+  .card_two-item {
+    width: 80%;
+    margin-top: 20px;
+    border-radius: 0.75rem;
+  }
+
+  /* Utility styles*/
+  .bold {
+    font-weight: var(--fw-bold);
+  }
+  .xbold {
+    font-weight: var(--fw-xbold);
+  }
+  .red {
+    background-color: var(--red-0);
+    color: var(--red);
+
+  }
+  .orange {
+    background-color: var(--orange-0);
+    color: var(--orange);
+  }
+  .teal {
+    background-color: var(--teal-0);
+    color: var(--teal);
+  }
+  .cobalt {
+    background-color: var(--cobalt-0);
+    color: var(--cobalt);
+  }
+
+  /* Footer */
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }

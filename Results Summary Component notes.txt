@@ -10,20 +10,20 @@
 
 
 ### Primary
-- Light red: hsl(0, 100%, 67%)
-- Orangey yellow: hsl(39, 100%, 56%)
-- Green teal: hsl(166, 100%, 37%)
-- Cobalt blue: hsl(234, 85%, 45%)
+--red:    hsl(0, 100%, 67%); /* Light red */
+--orange: hsl(39, 100%, 56%); /* Orangey yellow */
+--teal:   hsl(166, 100%, 37%); /* Green teal */
+--cobalt: hsl(234, 85%, 45%); /* Cobalt blue */
 
 ## Gradients
-- Light slate blue (background): hsl(252, 100%, 67%)
-- Light royal blue (background): hsl(241, 81%, 54%)
+--slate-blue : hsl(252, 100%, 67%); /* Light slate blue (background) */
+--royal-blue : hsl(241, 81%, 54%); /* Light royal blue (background) */
 
-- Violet blue (circle): hsla(256, 72%, 46%, 1)
-- Persian blue (circle): hsla(241, 72%, 46%, 0)
+--violet-blue  : hsla(256, 72%, 46%, 1); /* Violet blue (circle) */
+--persian-blue : hsla(241, 72%, 46%, 0);/* Persian blue (circle) */
 
 ### Neutral
-- White: hsl(0, 0%, 100%)
-- Pale blue: hsl(221, 100%, 96%)
-- Light lavender: hsl(241, 100%, 89%)
-- Dark gray blue: hsl(224, 30%, 27%)
+--white:     hsl(0, 0%, 100%); /* White */
+--pale-blue: hsl(221, 100%, 96%); /* Pale blue */
+--lavender:  hsl(241, 100%, 89%); /* Light lavender */
+--gray-blue: hsl(224, 30%, 27%); /*  Dark gray blue */
