@@ -90,9 +90,14 @@
     transform: translateX(-10px);
   }
 
+  .card__two-title {
+    text-align: left; 
+    padding: 0 20px
+  }
+
   .card_two-item {
     width: 80%;
-    margin-top: 20px;
+    margin: 10px auto;
     border-radius: 0.75rem;
   }
 
@@ -106,7 +111,6 @@
   .red {
     background-color: var(--red-0);
     color: var(--red);
-
   }
   .orange {
     background-color: var(--orange-0);
