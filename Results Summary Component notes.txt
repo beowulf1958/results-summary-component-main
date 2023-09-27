@@ -27,3 +27,7 @@
 --pale-blue: hsl(221, 100%, 96%); /* Pale blue */
 --lavender:  hsl(241, 100%, 89%); /* Light lavender */
 --gray-blue: hsl(224, 30%, 27%); /*  Dark gray blue */
+
+
+https://www.youtube.com/watch?v=0px6YH-cauQ&t=986s >(Kevin Powell)Improve your CSS by Keepin' it DRY
+https://www.youtube.com/watch?v=iyR6RXUZFQ8 >(Syal Infotainment) What is BEM in CSS - Block, Element, Modifier in 6 minutes

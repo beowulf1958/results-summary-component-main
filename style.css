@@ -95,9 +95,14 @@
     padding: 0 20px
   }
 
-  .card_two-item {
+  .card__two-item {
     width: 80%;
     margin: 10px auto;
+    border-radius: 0.75rem;
+  }
+  .card__two-button {
+    width: 80%;
+    background-color: var(--persian-blue);
     border-radius: 0.75rem;
   }
 
