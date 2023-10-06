@@ -44,20 +44,21 @@
 
   /* Center Cards */
   main {
-    background-color: #e6e6e6;
+
     font-family: hankenGrotesk, sans-serif;
     font-size: 1.125rem;
     font-weight: var(--fw-medium);
 
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
   /* Card styles */
   .card {
-    border: 2px solid red;
+
     width: 380px;
     height: 520px;
     padding: 20px;
@@ -107,10 +108,13 @@
   .two {
     background-color: var(--white);
     border-radius: 0 0.75rem 0.75rem 0;
-    transform: translateX(-10px);
+    gap:40px;
+    
   }
 
   .card__two-title {
+    margin-top: 20px;
+    min-height: 3rem;
     text-align: left; 
     padding: 0 20px
   }
@@ -118,10 +122,12 @@
   .card__two-item {
     width: 80%;
     margin: 20px auto;
+    padding: 10px 0;
     border-radius: 0.75rem;
   }
   .card__two-button {
     width: 80%;
+    min-height: 2.5rem;
     background-color: var(--cobalt);
     color: var(--white);
     border-radius: 0.75rem;
@@ -162,4 +168,13 @@
   }
   .attribution a {
     color: hsl(228, 45%, 44%);
+  }
+  @media screen and (min-width: 400px) {
+    main {
+      flex-direction: row;
+
+    }
+    .card {
+      box-shadow: 10px 10px 24px -11px rgba(55,33,117,1);
+    }
   }
