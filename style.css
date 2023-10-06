@@ -123,6 +123,7 @@
   .card__two-button {
     width: 80%;
     background-color: var(--cobalt);
+    color: var(--white);
     border-radius: 0.75rem;
   }
   .card__two-button:hover {
