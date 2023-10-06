@@ -16,9 +16,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+This was a newbie challenge. I used vanilla HTML and CSS and did not go for the bonus js. My goal this time was to get more organized in the CSS and I looked into CUBE and BEM.
 
 ### The challenge
 
@@ -30,15 +30,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![screenshot](./assets/images/Screenshot%202023-10-06.png)
 
 ### Links
 
@@ -54,19 +46,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- CUBE
 - BEM
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### What I learned
 
-The plan was to map out the project a little better this time, and try to make the CSS more readable. To this end, I researched BEM and the DRY (don't repeat yourself) conventions.
+The plan was to map out the project a little better this time, and try to make the CSS more readable. To this end, I researched CUBE, BEM and the DRY (don't repeat yourself) conventions.
 
-Filled in a few gaps in my skills. First time using @font-face import rule. Also first use of a variable font.
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Filled in a few gaps in my skills. First time using @font-face import rule. Also first use of a variable font. Tried to add a box-shadow.
 
 ```css
 @font-face {
@@ -74,10 +61,6 @@ Filled in a few gaps in my skills. First time using @font-face import rule. Also
   src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
 
 ### Continued development
 
