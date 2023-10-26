@@ -130,8 +130,8 @@
     min-height: 52px;
     background-color: var(--cobalt);
     color: var(--white);
-    border-radius: 0.75rem;
-      font-size: 1.25rem
+    border-radius: 1.25rem;
+    font-size: 1.25rem
   }
   .card__two-button:hover {
     background-color: var(--cobalt-light) ;
