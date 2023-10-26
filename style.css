@@ -126,11 +126,12 @@
     border-radius: 0.75rem;
   }
   .card__two-button {
-    width: 80%;
-    min-height: 2.5rem;
+    width: 290px;
+    min-height: 52px;
     background-color: var(--cobalt);
     color: var(--white);
     border-radius: 0.75rem;
+      font-size: 1.25rem
   }
   .card__two-button:hover {
     background-color: var(--cobalt-light) ;
